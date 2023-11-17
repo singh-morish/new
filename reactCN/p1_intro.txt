@@ -1,0 +1,37 @@
+react is a javascript library for building user interfaces
+
+library provide some function which make writting code easy 
+
+history of react - 
+react was originally created by jordan walke, initial verison was launced in 2013, it is now maintained by Meta and a community of developer
+
+why react?
+react is composable, large UI can be divided in smaller part and reassembled to create complete UI, help us to create single page applications
+
+single page application - web application which loads a single HTML and update the part of the documents using javascript
+
+multipage applications - traditional implementation of web application which reload whole page when the user interacts with the application
+
+react is a decelarative language we tell the react what to do not how to do 
+
+
+DOM(Document Object Model)
+Documenet stands for HTML filec and object stands for Node
+
+virtual DOM - programming concept where an ideal or "virtual" representation of a UI is kept in memory and synced with the "real" DOM
+if we are making changes to any node of the DOM then first changes will be reflected in the virtual DOM 
+
+
+const reactHeading = React.createElement("h1", {className: "head", id :"reactHead", children:"hello React"})
+
+
+ReactDom.createRoot(document.getElementById("root).render(reactHeading))
+
+
+JSX(Javascript XML) - javascript + HTML
+JSX is a extension to the HTML
+
+
+react with JSX - 
+const jsxHeading = (<h1>Hello JSX</h1>)
+ReactDOM.createRoot(document.getElementById("root")).render(jsxHeading)
